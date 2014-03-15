@@ -9,7 +9,7 @@ search us-west-1.compute.internal" | tee /etc/resolv.conf
 apt-get -y update
 
 # install server software
-apt-get -y install openvpn git nginx python-setuptools
+apt-get -y install sudo openvpn git nginx python-setuptools
 
 # get python in order
 easy_install pip
